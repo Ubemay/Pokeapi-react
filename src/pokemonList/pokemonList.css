@@ -1,0 +1,49 @@
+body {
+  background-color: #fdf5e6;
+  background-image: url('https://images.theconversation.com/files/513235/original/file-20230302-17-g106nh.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1200&h=675.0&fit=crop');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.container {
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  margin: 0 auto;
+  padding: 20px;
+  max-width: 800px;
+}
+
+.pokemon-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 30px;
+}
+
+.pokemon-grid a {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: #333;
+}
+
+.pokemon-grid a:hover {
+  color: #ff9800;
+}
+
+.pokemon-grid img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.pokemon-grid h3 {
+  margin-top: 10px;
+  font-size: 1.2rem;
+  text-align: center;
+  text-transform: capitalize;
+}

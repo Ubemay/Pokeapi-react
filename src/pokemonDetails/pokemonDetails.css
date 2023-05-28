@@ -9,6 +9,7 @@
     font-size: 2.5rem;
     text-transform: capitalize;
     margin-bottom: 20px;
+    color: white;
   }
   
   .pokemon-details img {
@@ -23,6 +24,8 @@
   .pokemon-details p {
     font-size: 1.2rem;
     margin-bottom: 10px;
+    color: white;
+    font-weight: bold;
   }
   
   .pokemon-details .loading {
